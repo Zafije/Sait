@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ам-Ням в зелёном</title>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            /* Зелёный градиент */
+            background: linear-gradient(135deg, #2ecc71, #27ae60);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый для контраста */
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 100, 0, 0.4); /* Зелёная тень */
+            max-width: 90%;
+            margin: 20px;
+            border: 2px solid #2ecc71; /* Зелёная рамка */
+        }
+        img {
+            max-width: 100%;
+            max-height: 60vh;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 80, 0, 0.3);
+            display: block;
+            margin: 0 auto 30px;
+            border: 3px solid #27ae60; /* Зелёная обводка изображения */
+        }
+        h1 {
+            color: #2c3e50; /* Тёмный цвет для читаемости */
+            font-size: 4em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(46, 204, 113, 0.3); /* Зелёное свечение */
+            letter-spacing: 2px;
+        }
+        /* Адаптация для мобильных */
+        @media (max-width: 600px) {
+            h1 { font-size: 3em; }
+            .container { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Изображение по вашей ссылке -->
+        <img src="https://i.ibb.co/DDqYTq5x/3F-3F3F.webp" alt="Ам-Ням персонаж" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x300/2ecc71/ffffff?text=Ам-Ням'">
+        <h1>Ам-Ням</h1>
+    </div>
+</body>
+</html>
